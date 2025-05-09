@@ -1,14 +1,14 @@
 {
-"homepage": "https://jaicomi22.github.io/admin-citas-app/",
+  "homepage": "https://jaicomi22.github.io/admin-citas-app/",
   "name": "admin-citas-app",
   "version": "1.0.0",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "clsx": "^2.1.0",
     "react": "^18.2.0",
@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
-    "vite": "^5.0.0"
+    "vite": "^5.0.0",
+    "gh-pages": "^6.0.0"
   }
 }

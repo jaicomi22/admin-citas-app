@@ -1,0 +1,1 @@
+export default function AdminCitas() { return <div>Admin Citas UI</div>; }
